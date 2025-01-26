@@ -6,7 +6,7 @@ resource "aws_lightsail_instance" "lightsail_1" {
   bundle_id         = "micro_1_0"         
   user_data         = file("data.sh")      
   tags = {
-    Name = "Lightsail_hepher" 
+    Name = "Lightsail_amazon" 
   }
 }
 

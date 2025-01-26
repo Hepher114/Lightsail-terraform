@@ -1,4 +1,4 @@
-output "name" {
+output "nme" {
   value = aws_lightsail_instance.lightsail_1.name
  
 }

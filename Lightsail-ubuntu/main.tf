@@ -6,7 +6,7 @@ resource "aws_lightsail_instance" "lightsail_ub" {
   user_data         = file("script.sh")
 
   tags = {
-    name = "ls_instance"
+    name = "Ls_instance"
   }
 }
 

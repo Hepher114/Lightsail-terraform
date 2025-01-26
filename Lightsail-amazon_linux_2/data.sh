@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Create a new user named 'joe'
+# Create a new usr named 'joe'
 sudo useradd joe
 
 # Create a new group named 'developer'
